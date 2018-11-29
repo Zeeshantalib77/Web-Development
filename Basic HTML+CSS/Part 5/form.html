@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+ <!-- input type -> text password color reset radio checkbox
+  date time email number search tel url submit button  -->
+ <form style="text-align: center;">
+   <fieldset>
+    <legend>Personal information:</legend>
+
+    <!-- input type text - for input of text from user -->
+    First name:
+    <input type="text" name="firstname" value="Ali">  <br>
+    Last name:
+    <input type="text" name="lastname">  <br>
+
+    <!-- type reset values in input tags -->
+    <input type="reset">
+    <input type="submit" value="Click_Here"> <br>
+    
+    <!-- input type password - for input of password in dots from user -->
+    Password:
+    <input type="password" name="user_pass"> <br>
+
+    <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea> <br>
+    
+    <!-- input type radio - multiple options of radio -->
+    <input type="radio" name="gender" value="male" checked> Male <br>
+    <input type="radio" name="gender" value="female"> Female <br>
+    <input type="radio" name="gender" value="other"> Other <br>
+    
+    <!-- input type checkbox - multiple options by checkbox -->
+    <input type="checkbox" name="vehicle1" value="Bike"> I have a bike <br>
+    <input type="checkbox" name="vehicle2" value="Car"> I have a car <br>
+
+    <!-- multiple options selection -->
+    <select name="language">
+      <option value="java">Java</option>
+      <option value="php">Php</option>
+      <option value="javascript">JavaScript</option>
+      <option value="css">CSS</option>
+    </select>
+    
+    <br>
+
+    <!-- multiple options selection -->
+    <select name="language" size="3">
+      <option value="java">Java</option>
+      <option value="php">Php</option>
+      <option value="javascript">JavaScript</option>
+      <option value="css">CSS</option>
+    </select>
+    
+    <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+  </fieldset>
+</form> 
+
+
+</body>
+</html>

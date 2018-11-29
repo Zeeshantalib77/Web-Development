@@ -1,0 +1,7 @@
+/* This is comment in CSS  */
+body {background-color: white;}
+h1   {background-color: black; color: white;}
+p    {color: red; border: 1px solid black; padding: 30px;}
+p.error { color: red;}
+#myHeader {background-color: lightblue; color: black; padding: 40px; text-align: center;}
+.mycity { background-color: tomato; color: white; padding: 10px;} 
