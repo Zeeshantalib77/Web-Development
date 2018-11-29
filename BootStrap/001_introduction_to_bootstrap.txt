@@ -1,0 +1,9 @@
+Bootstrap is a free front-end framework for faster and easier web development
+
+Bootstrap also gives you the ability to easily create responsive designs
+
+Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, 
+from small phones to large desktops. Bootstrap's responsive CSS adjusts to phones, tablets, and desktops
+
+Bootstrap is compatible with all modern browsers (Chrome, Firefox, Internet Explorer, Edge, Safari, and Opera)
+
